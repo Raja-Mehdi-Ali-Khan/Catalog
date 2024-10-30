@@ -1,38 +1,195 @@
-.App {
-  text-align: center;
+/* Reset some styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* General body styling */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Container for the cards */
+.min-h-screen {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* Title styling */
+.text-blue-600 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 1.5rem;
 }
 
-@keyframes App-logo-spin {
+/* Card Styling */
+.card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Card image styling */
+.card img {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+/* Card content */
+.card h2 {
+  font-size: 1.25rem;
+  color: #111827;
+  margin: 1rem 0 0.5rem;
+  text-align: center;
+}
+
+.card p {
+  color: #4b5563;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Responsive grid layout */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Add Item button styling */
+.add-item-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2563eb;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-item-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal form overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Modal form */
+.modal-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  animation: slideInUp 0.5s ease;
+}
+
+.modal-form h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563eb;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Input styling */
+.modal-form input[type='text'] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  transition: border-color 0.3s ease;
+}
+
+.modal-form input[type='text']:focus {
+  border-color: #2563eb;
+}
+
+/* Submit button styling */
+.modal-form button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Fade-in animation for overlay */
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+/* Slide-up animation for modal */
+@keyframes slideInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }

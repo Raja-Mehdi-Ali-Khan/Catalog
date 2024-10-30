@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung S24 Ultra",
+    "price": "$100.00",
+    "image": "https://imgs.search.brave.com/TxxLFwKzAvm2cU1dHcg8Ar-fytCRHqoj1ely8WtHKS8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bmVvd2luLmNvbS9u/ZXdzL2ltYWdlcy91/cGxvYWRlZC8yMDI0/LzAxLzE3MDY3Mjc2/MTRfMjAyNC4wMS4z/MF8yMDI5LTI5XzAw/MDA0LWVuaGFuY2Vk/LW5yX21lZGl1bS5q/cGc"
+  },
+  {
+    "id": 2,
+    "name": "Iphone 16",
+    "price": "$105.00",
+    "image": "https://imgs.search.brave.com/zakFHxHwTB-udxSmQ43VKuBSe8Y_SpdPet1A6JhGE6U/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0Lzhy/OHFkTmZVVjNyb241/NG5IQXlSNDUtMzIw/LTgwLmpwZw"
+  },
+  {
+    "id": 3,
+    "name": "Motorola Razr",
+    "price": "$150.00",
+    "image": "https://imgs.search.brave.com/VAvNoAowNjStZ7PwKsHgCGNZDHIZRLIfldeqHnsB408/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9yb2Jv/dHMubmV0L3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDI0LzAyL3Vu/ZGVyc3RhbmRpbmct/cGljdHVyZS1zdG9y/YWdlLW9uLW1vdG9y/b2xhLXJhenItMTcw/ODE5MDg4MS5qcGc"
+  },
+  {
+    "id": 4,
+    "name": "OnePlus 11",
+    "price": "$99.00",
+    "image": "https://imgs.search.brave.com/wYRjrQv4OMVWf_fJYaSqaVZGwRnPPpSl6kiQvAmqL3c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y25ldC5jb20vYS9p/bWcvcmVzaXplL2Zl/YTMyMjY4MzI4MWYw/MDg2NjNkNTNmYmQy/MjdlZWFjYjNjYjQw/NjgvaHViLzIwMjMv/MDIvMDUvMDIyYmU5/MjYtNDdlYy00ZDFj/LWI1ZWEtNzhjNTE0/MmZjMmVmL29uZXBs/dXMtMTEtcmV2aWV3/LWNuZXQtbGFueG9u/LXByb21vLTM2Lmpw/Zz9hdXRvPXdlYnAm/d2lkdGg9MTIwMA"
+  },
+  {
+    "id": 5,
+    "name": "Realme GT 6T",
+    "price": "$85.00",
+    "image": "https://imgs.search.brave.com/5dcYIkWDPmEj8NenLb-IZbxUvXirJeHkPMsHsMyqnpI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L1pK/VkFiR2dNMkhyb3kz/VWpVdzVtOUwtNDgw/LTgwLmpwZw"
+  },
+  {
+    "id": 6,
+    "name": "Nothing Phone 9",
+    "price": "$95.00",
+    "image": "https://imgs.search.brave.com/IhVrc5oPu9dyWaK5sd90c8lrntK_zZv8EHvMHjXS6po/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGlnaXRhbHRyZW5k/cy5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjQvMDMvbm90/aGluZy1waG9uZS0y/YS1nbHlwaC1vbi5q/cGc_cmVzaXplPTYy/NSw0MTcmcD0x"
+  },
+  {
+    "id": 6,
+    "name": "Google Pixel 9",
+    "price": "$99.00",
+    "image": "https://imgs.search.brave.com/fkjoP0bQhChjEsi-Rhr0oYXixUQEN5QfVUPO-yrpVHE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL1Mv/YXBsdXMtbWVkaWEt/bGlicmFyeS1zZXJ2/aWNlLW1lZGlhLzJk/MzVlMDViLWVkYTIt/NGM4Ny05OGY0LWJk/NGEzNmMxZDVmZS5f/X0NSMCwwLDE0NjQs/NjAwX1BUMF9TWDE0/NjRfVjFfX18uanBn"
+  },
+  {
+    "id": 1730236534312,
+    "name": "Samsung Z fold",
+    "price": "$199",
+    "image": "https://imgs.search.brave.com/s7hT4_-FnI9vTllHiQwWLEtZD_pHrpvfyJqHDL5gLcQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9mZG4u/Z3NtYXJlbmEuY29t/L2ltZ3Jvb3QvcmV2/aWV3cy8yMS9zYW1z/dW5nLWdhbGF4eS16/LWZvbGQzLTVnLy0x/MjIweDUyNi9nc21h/cmVuYV8wMDMuanBn"
+  },
+  {
+    "id": 1730237806927,
+    "name": "Asus Rog Phone 2",
+    "price": "$122",
+    "image": "https://imgs.search.brave.com/6-3B71DzrKbrchjS6-ERW6VbYSWStEX-A5RsKYOfMOc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLWNk/bi5waG9uZWFyZW5h/LmNvbS9pbWFnZXMv/YXJ0aWNsZS8xMzY2/NTQtd2lkZS10d29f/MzUwL0FzdXMtUk9H/LVBob25lLTItaXMt/ZmluYWxseS1nZXR0/aW5nLXVwZGF0ZWQt/dG8tQW5kcm9pZC0x/MS5qcGc"
+  },
+  {
+    "id": 1730237913626,
+    "name": "Iphone 15 Pro",
+    "price": "$149",
+    "image": "https://imgs.search.brave.com/8CFczFlRrv6UpM25hBpM5oD1geFNn0_w0ocoKQqEqvw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9mZG4u/Z3NtYXJlbmEuY29t/L2ltZ3Jvb3QvcmV2/aWV3cy8yMy9hcHBs/ZS1pcGhvbmUtMTUt/cHJvLy0xMjIweDUy/Ni9nc21hcmVuYV8w/MDQuanBn"
+  },
+  {
+    "id": 1730237972309,
+    "name": "Blackberry",
+    "price": "$69",
+    "image": "https://imgs.search.brave.com/QWGXsKsnrTkE_P3bvyddlbEGlkXfN8K0MREGs4mdeFs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLWNk/bi5waG9uZWFyZW5h/LmNvbS9pbWFnZXMv/YXJ0aWNsZS8xMzk1/MjUtd2lkZS10d29f/ODAwL1VuaWhlcnR6/LXRlYXNlcy1CbGFj/a0JlcnJ5LUtFWTIt/c3R5bGUtcGhvbmUt/cG9zc2libHktd2l0/aC01Ry5qcGc_MTY0/OTU3NTk5Nw"
+  },
+  {
+    "id": 1730238218658,
+    "name": "Sony Xperia",
+    "price": "$123",
+    "image": "https://imgs.search.brave.com/Kk_Rvv4d0d6gsyeqNPIMeoH7xk_P2AgaGqMF9-dLpn0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL1Mv/YXBsdXMtbWVkaWEt/bGlicmFyeS1zZXJ2/aWNlLW1lZGlhLzc5/N2M2YTNlLTIzNTUt/NGY3Mi1iNTc5LTM3/ZTM0ZDY5ZjFlYS5f/X0NSMCwwLDQzOTIs/MTgwMF9QVDBfU1gx/NDY0X1YxX19fLmpw/Zw"
+  }
+]
