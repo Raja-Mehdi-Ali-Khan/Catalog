@@ -7,13 +7,14 @@ function App() {
    const [items, setItems] = useState([]);
 
    useEffect(() => {
-      fetch('http://localhost:5000/api/items')
+      fetch('/api/items')
          .then((response) => response.json())
-         .then((data) => setItems(data));
+         .then((data) => setItems(data))
+         .catch((error) => console.error('Error fetching items:', error));
    }, []);
 
    const addItem = (newItem) => {
-      fetch('http://localhost:5000/api/items', {
+      fetch('/api/items', {
          method: 'POST',
          headers: {
             'Content-Type': 'application/json',
@@ -23,7 +24,8 @@ function App() {
          .then((response) => response.json())
          .then((data) => {
             setItems((prevItems) => [...prevItems, data]);
-         });
+         })
+         .catch((error) => console.error('Error adding item:', error));
    };
 
    return (
